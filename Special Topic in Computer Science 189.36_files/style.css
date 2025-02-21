@@ -1,0 +1,99 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: "Palatino", "Times New Roman", serif; /* Palatino as requested */
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #00693E; /* Dartmouth Green */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.dartmouth-logo {
+  max-height: 60px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+/* Main */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+/* Double lines around h2 headings */
+section h2 {
+  margin: 40px 0 10px 0;
+  font-size: 1.6em;
+  color: #00693E; /* Dartmouth Green */
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Sub-headings (if used) */
+section h3 {
+  margin: 15px 0 5px 0;
+  font-size: 1.2em;
+}
+
+/* Lists */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* "Read More" Button */
+#myBtn {
+  background-color: #00693E;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+#myBtn:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
